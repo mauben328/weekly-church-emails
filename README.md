@@ -30,9 +30,3 @@ To make this run automatically every week:
    * **Select day of week:** Choose the day you want the email to go out.
    * **Select time of day:** Choose your preferred time window.
 4. Click **Save**. *(Google will prompt you to authorize the script to send emails on your behalf).*
-
-## Security & Privacy Note
-If you are developing locally and pushing to GitHub using `clasp` (Command Line Apps Script Projects), **do not commit your `.clasp.json` file**. This file contains your private Apps Script ID. Ensure you have a `.gitignore` file that includes:
-
-```text
-.clasp.json
